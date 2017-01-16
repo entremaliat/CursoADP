@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300');
+
+*{ /* Reglas css genéricas */
+    font-family: 'Quicksand', sans-serif; /* La fuente de letra */
+    font-size: 20px; /* El tamaño de letra */
+}
+
+body {
+    margin: 0; /* Quitar el magin que tiene el body por defecto */
+    background-image: url('../img/bgtexture2.jpg'); /* Poner una imagen de fondo */
+}
+
+h1 {
+    font-size: 1.8em; /* Tamaño de la letra en función del tamaño genérico */
+    margin-top: 0;
+}
+
+table h2 { /* Reglas css para los h2 que están dentro de una table */
+    text-align: center;
+}
+
+table, td { /* Reglas css para las table y las td */
+    border: 1px solid;
+    border-collapse: collapse; /* Para un borde único, se colapsan los bordes */
+}
+
+table {
+    border-spacing: 15px; /* Espaciado entre celdas. Con el border-collapse no funciona */
+    text-align: right; /* Alineación del texto a la derecha */
+}
+
+td {
+    min-width: 70px; /* Tamaño mínimo de ancho */
+}
+
+#container {
+    width: 75%; /* Ancho del 75% del ancho de la pantalla */
+    margin: auto; /* Centrar la caja en ancho */
+    background-color: rgba(139, 169, 176,0.7); /* Color de fondo con transparencia. 1-Opaco, 0-Transparente */
+    /* opacity: 0.8; Afecta a todo el contenido. 1-Opaco, 0-Transparente */
+    padding: 2%;
+}
