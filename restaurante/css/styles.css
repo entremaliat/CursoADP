@@ -10,15 +10,18 @@
     width: 90%;
     margin: auto;
 }
+
 #header {
     /* background-color: pink; */
     height: 90px;
 }
+
 #logo {
     /* background-color: blue; */
     width: 20%;
     float: left;
 }
+
 #nav {
     /* background-color: red; */
     width: 80%;
@@ -66,4 +69,21 @@
 
 .icono {
     font-size: 6.25em!important;
+}
+
+.box {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.boxHeader, .boxText{
+    padding: 0 5%;
+}
+
+#container {
+    /* width: 100%; */
+    float: left;
+    margin-top: 20px;
+    color: #533930;
 }
