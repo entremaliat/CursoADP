@@ -1,2 +1,128 @@
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600";
 
+* {
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#wrapper {
+    margin: auto;
+    width: 90%;
+}
+
+#header {
+    text-align: center;
+    margin-bottom: 4em;
+    margin-top: 6em;
+}
+
+hr {
+    margin: 3em 0;
+    clear: both;
+}
+
+.fila {
+    margin: 0 0 -1px -2em;
+    float: left;
+    width: 100%;
+}
+
+.box25 {
+    width: 25%;
+    float: left;
+    padding: 0 0 0 2em;
+    clear: none;
+    margin-left: 0;
+}
+
+.box33 {
+    width: 33.3333333333%;
+    float: left;
+    padding: 0 0 0 2em;
+    clear: none;
+    margin-left: 0;
+}
+
+.box50 {
+    width: 50%;
+    float: left;
+    padding: 0 0 0 2em;
+    clear: none;
+    margin-left: 0;
+}
+
+.box100 {
+    width: 100%;
+    float: left;
+    padding: 0 0 0 2em;
+    clear: none;
+    margin-left: 0;
+}
+
+#footer {
+    color: #6cc091;
+}
+
+.rosa {
+    color: pink;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #555;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 0 1em 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    margin: 0 0 2em 0;
+    color: #9a9a9a;
+}
+
+h3 {
+    font-size: 1.85em;
+    font-weight: 300;
+}
+
+.inner {
+    margin: 0 auto;
+    position: fixed;
+    max-width: 75em;
+}
+
+#nav li {
+    display: inline-block;
+    padding: 0 0.75em;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#nav {
+    background: #6cc091;
+    top: 0;
+    height: 44px;
+    line-height: 44px;
+    position: fixed;
+    color: #fff;
+    cursor: default;
+    left: 0;
+    text-align: left;
+    width: 100%;
+    z-index: 10001;
+}
+
+#nav ul {
+    float: right;
+    margin: 0;
+}
+
+#logoIzq {
+    padding-left: 12px;
+}
